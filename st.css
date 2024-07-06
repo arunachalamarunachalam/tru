@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+nav .logo {
+    font-size: 5em;
+    font-weight: bold;
+    color: #008cba;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin:10px;
+}
+
+nav ul li a {
+    color: #edebeb;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+header .search-bar {
+    float:none;
+    margin-left: 20px;
+    padding:10px;
+}
+
+header .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header .search-bar button:hover {
+    background-color: #45a049;
+}
+
+.hero {
+    padding: 2em 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background-color: #008cba;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background-color: #005f5f;
+}
+
+/* ===== */
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+ 
+
+#about .team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.service {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #0eb4e2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
